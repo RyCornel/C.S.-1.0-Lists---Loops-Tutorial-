@@ -14,3 +14,13 @@ print(songs)
 
 songs[2] = "Everything I Wanted"
 print(songs)
+
+#Q4
+songs.append("Roman Holiday")
+
+songs.extend(["Do What I Want"])
+
+songs.insert(3, "3:15")
+
+print(songs)
+

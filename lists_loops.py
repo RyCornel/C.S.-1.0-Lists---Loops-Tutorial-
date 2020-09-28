@@ -24,3 +24,6 @@ songs.insert(3, "3:15")
 
 print(songs)
 
+songs.pop(0)
+del songs[1]
+print(songs)

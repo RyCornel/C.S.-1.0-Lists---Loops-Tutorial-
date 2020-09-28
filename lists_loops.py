@@ -37,3 +37,10 @@ for i in range(len(songs)):
     print(songs[i])
 #Option 2, prints out a range within the list of songs. Eg: it's possible to print out the third and fourth songs, specificially.
 
+#Q6
+animals = ["Stingray", "Tiger", "Hawk"]
+animals.append("Dolphin")
+print(animals[2])
+del animals[0]
+for animal in animals:
+    print(animals)

@@ -27,3 +27,13 @@ print(songs)
 songs.pop(0)
 del songs[1]
 print(songs)
+
+#Q5
+for song in songs:
+    print(song)
+#Option 1, prints out the whole list, as is.
+
+for i in range(len(songs)):
+    print(songs[i])
+#Option 2, prints out a range within the list of songs. Eg: it's possible to print out the third and fourth songs, specificially.
+
